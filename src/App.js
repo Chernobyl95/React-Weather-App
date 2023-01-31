@@ -41,7 +41,7 @@ function App() {
           </div>
         </div>
 
-        {data.name != undefined && (
+        {data.name !== undefined && (
           <div className='bottom'>
             <div className='feels'>
               <p className='bold'>Feels like</p>
